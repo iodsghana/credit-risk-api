@@ -1,0 +1,102 @@
+[
+  {
+    "feature": "EXT_SOURCE_2",
+    "importance_mean": 0.056765,
+    "importance_std": 0.006675
+  },
+  {
+    "feature": "EXT_SOURCE_3",
+    "importance_mean": 0.031127,
+    "importance_std": 0.004198
+  },
+  {
+    "feature": "EXT_SOURCE_1",
+    "importance_mean": 0.022927,
+    "importance_std": 0.007222
+  },
+  {
+    "feature": "prev_credit_total",
+    "importance_mean": 0.007001,
+    "importance_std": 0.000831
+  },
+  {
+    "feature": "goods_to_credit_ratio",
+    "importance_mean": 0.00647,
+    "importance_std": 0.00257
+  },
+  {
+    "feature": "DAYS_BIRTH",
+    "importance_mean": 0.006363,
+    "importance_std": 0.001736
+  },
+  {
+    "feature": "prev_decision_days_mean",
+    "importance_mean": 0.005244,
+    "importance_std": 0.001868
+  },
+  {
+    "feature": "CODE_GENDER",
+    "importance_mean": 0.004363,
+    "importance_std": 0.00229
+  },
+  {
+    "feature": "bureau_debt_to_credit_ratio",
+    "importance_mean": 0.003669,
+    "importance_std": 0.001089
+  },
+  {
+    "feature": "credit_to_income_ratio",
+    "importance_mean": 0.003343,
+    "importance_std": 0.001225
+  },
+  {
+    "feature": "prev_down_payment_mean",
+    "importance_mean": 0.00271,
+    "importance_std": 0.001624
+  },
+  {
+    "feature": "bureau_recent_credit_days_mean",
+    "importance_mean": 0.002709,
+    "importance_std": 0.001449
+  },
+  {
+    "feature": "DAYS_EMPLOYED",
+    "importance_mean": 0.002449,
+    "importance_std": 0.002525
+  },
+  {
+    "feature": "bureau_credit_sum_total",
+    "importance_mean": 0.002411,
+    "importance_std": 0.001159
+  },
+  {
+    "feature": "prev_refusal_rate",
+    "importance_mean": 0.002249,
+    "importance_std": 0.001186
+  },
+  {
+    "feature": "age_years",
+    "importance_mean": 0.002149,
+    "importance_std": 0.001502
+  },
+  {
+    "feature": "bureau_credit_debt_total",
+    "importance_mean": 0.001664,
+    "importance_std": 0.000263
+  },
+  {
+    "feature": "prev_approved_count",
+    "importance_mean": 0.001562,
+    "importance_std": 0.0004
+  },
+  {
+    "feature": "prev_application_total",
+    "importance_mean": 0.00121,
+    "importance_std": 0.000236
+  },
+  {
+    "feature": "NAME_EDUCATION_TYPE",
+    "importance_mean": 0.001175,
+    "importance_std": 0.001853
+  }
+]

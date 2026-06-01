@@ -7,7 +7,11 @@ data/raw/*.csv
 models/*.pkl
 models/*.json
 monitoring/*.log
-monitoring/*.png
+monitoring/*.tmp
+
+!monitoring/*.json
+!monitoring/*.md
+!monitoring/*.png
 
 .env
 .DS_Store

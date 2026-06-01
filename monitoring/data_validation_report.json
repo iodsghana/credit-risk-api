@@ -1,0 +1,52 @@
+{
+  "files": {
+    "application_train.csv": {
+      "rows": 307511,
+      "columns": 122
+    },
+    "bureau.csv": {
+      "rows": 1716428,
+      "columns": 17
+    },
+    "previous_application.csv": {
+      "rows": 1670214,
+      "columns": 37
+    },
+    "HomeCredit_columns_description.csv": {
+      "rows": 219
+    }
+  },
+  "target": {
+    "positive_class": "TARGET=1 default",
+    "negative_class": "TARGET=0 repaid",
+    "default_rate": 0.08073,
+    "class_counts": {
+      "0": 282686,
+      "1": 24825
+    }
+  },
+  "join_coverage": {
+    "application_ids": 307511,
+    "with_bureau_history": 263491,
+    "with_previous_application_history": 291057,
+    "bureau_coverage_rate": 0.85685,
+    "previous_application_coverage_rate": 0.94649
+  },
+  "missingness_top_10": {
+    "COMMONAREA_MEDI": 0.69872,
+    "COMMONAREA_AVG": 0.69872,
+    "COMMONAREA_MODE": 0.69872,
+    "NONLIVINGAPARTMENTS_MODE": 0.69433,
+    "NONLIVINGAPARTMENTS_AVG": 0.69433,
+    "NONLIVINGAPARTMENTS_MEDI": 0.69433,
+    "FONDKAPREMONT_MODE": 0.68386,
+    "LIVINGAPARTMENTS_MODE": 0.68355,
+    "LIVINGAPARTMENTS_AVG": 0.68355,
+    "LIVINGAPARTMENTS_MEDI": 0.68355
+  },
+  "leakage_guardrails": [
+    "TARGET is removed before model fitting.",
+    "SK_ID_CURR is used only as a join key and excluded from features.",
+    "Bureau and previous-application tables are aggregated to one row per applicant before joining."
+  ]
+}
