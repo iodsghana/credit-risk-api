@@ -1,6 +1,6 @@
 # Home Credit Default Risk API
 
-Production-style machine learning project that predicts loan default risk using the Home Credit Default Risk dataset. The pipeline trains from real application records, enriches them with bureau and prior-application history, saves a champion model, and exposes scoring through FastAPI.
+Production-style machine learning project that predicts loan default risk using the Home Credit Default Risk Kaggle competition dataset. The pipeline trains from real application records, enriches them with bureau and prior-application history, saves a champion model, and exposes scoring through FastAPI.
 
 ## Why This Project Matters
 
@@ -29,7 +29,11 @@ credit-risk-api/
 
 ## Data Setup
 
-Download or place these files in `data/raw/`:
+Download the Kaggle competition files, then place these CSVs in `data/raw/`:
+
+```bash
+kaggle competitions download -c home-credit-default-risk
+```
 
 ```text
 data/raw/application_train.csv
